@@ -1,0 +1,33 @@
+{
+    "COLS_TODROP": [
+        "signature",
+        "jobId"
+    ],
+    "COLS_KNOBS": [
+        "batchInterval",
+        "spark.streaming.blockInterval",
+        "spark.default.parallelism",
+        "inputRate",
+        "spark.executor.instances",
+        "spark.executor.cores",
+        "spark.executor.memory",
+        "spark.reducer.maxSizeInFlight",
+        "spark.shuffle.sort.bypassMergeThreshold",
+        "spark.shuffle.compress"
+    ],
+    "COLS_TARGETS": [
+        "driver.StreamingMetrics.streaming.lastCompletedBatch_processingDelay.avg"
+    ],
+    "COLS_PREP_TR": [
+        "spark.executor.memory",
+        "spark.reducer.maxSizeInFlight"
+    ],
+    "COLS_PREP_TOINT": [
+        "spark.executor.memory",
+        "spark.reducer.maxSizeInFlight",
+        "spark.shuffle.compress"
+    ],
+    "PREP_MIN_TARGET": 200,
+    "PREP_MAX_TARGET": 30000,
+    "INTENSIVE_WORKLOAD_UPPER_ID": 8
+}

@@ -1,0 +1,29 @@
+{
+    "COLS_TODROP": [
+        "conf_id"
+    ],
+    "COLS_KNOBS": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5",
+        "k6",
+        "k7",
+        "k8",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+    ],
+    "COLS_TARGETS": [
+        "latency"
+    ],
+    "COLS_PREP_TR": [],
+    "COLS_PREP_TOINT": [
+        "k7"
+    ],
+    "PREP_MIN_TARGET": 1,
+    "PREP_MAX_TARGET": 1500,
+    "INTENSIVE_WORKLOAD_UPPER_ID": -1
+}
