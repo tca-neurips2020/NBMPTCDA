@@ -21,9 +21,9 @@ Each folder contains multiple csv files. Each csv file corresponds to traces for
 a particular workload. Since the number of files are limited to 1000 per folder
 on github (if checking from browser), we have made the datasets downloadable at
 this anonymous address as well:
-https://drive.google.com/file/d/1mg_p4R_efgtTiF23SJLD7Yr-PkcFpSgJ/view?usp=sharing
-The compact URL of the dataset is: https://tinyurl.com/ycg3umkp (MD5 checksum of
-the zip file: c879db65350e15039b4c59324bda800e)
+https://drive.google.com/file/d/1k3klCqOWTlijn9wT0--NZ09fOWVTA1RM/view?usp=sharing
+The compact URL of the dataset is: https://tinyurl.com/yc9z3lfz (MD5 checksum of
+the zip file: ee9012770882d300b319a174900c0196)
 
 This is because for TPCx-bb dataset we have 1160 workloads, and thus 1160 files.
 
